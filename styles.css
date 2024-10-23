@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-inline: 10%;
+
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header {
+    background-image: url(./images/slide1.jpg);
+    min-height: 1024px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    height: 100px;
+}
+
+.header p {
+    color: white;
+    align-items: center;
+
+
+}
+
+.header nav button {
+    border: none;
+    background-color: #0078BE;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 12px 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.text-box {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    color: white;
+    font-weight: bold;
+
+
+
+}
+
+/* join */
+
+.join {}
+
+.join h1 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container {
+
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+
+
+}
+
+.box {
+    flex-basis: 31%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.box ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+
+}
+
+.box ul li {
+    margin-bottom: 10px;
+}
+
+.box h2 {
+    margin-bottom: 40px;
+    font-size: 1.5em;
+}
+
+.box ul li::before {
+    content: ">";
+    color: #3498db;
+    font-size: 1.2em;
+    margin-right: 8px;
+
+}
+
+
+.btn-cont {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+}
+
+
+.btn-cont button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-box {
+    flex-basis: 31%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+/* 
+download-app-section */
+
+.download-app-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.app-content {
+    width: 50%;
+}
+
+.app-content h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.app-content p {
+    margin-bottom: 20px;
+}
+
+.app-content ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.app-content ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+
+}
+
+.app-content ul li:before {
+    content: ">";
+    color: #007bff;
+    margin-right: 8px;
+
+}
+
+.store-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.store-buttons a img {
+    width: 150px;
+}
+
+.app-image img {
+    width: 300px;
+}
+
+
+/* footer */
+
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #ccc;
+}
+
+.footer-section p,
+.footer-section a {
+    color: #ccc;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-columns .column {
+    margin-right: 20px;
+}
+
+.footer-columns h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-columns ul {
+    list-style: none;
+}
+
+.footer-columns ul li {
+    margin-bottom: 8px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+}
+
+.footer-bottom a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.social-links a {
+    margin-right: 10px;
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+}
+
+.app-links a img {
+    width: 150px;
+    margin-right: 10px;
+}
